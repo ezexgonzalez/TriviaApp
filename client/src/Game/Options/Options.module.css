@@ -1,0 +1,35 @@
+
+.answer{
+    cursor: pointer;
+    border: none;
+    background-color: #F05454;
+    color: white;
+    width: 25rem;
+    font-size: 1.5rem;
+    margin: .5rem 0 .5rem 0;
+    border-radius: .5rem;
+    border-bottom: 5px solid #b14040;
+    padding: .5rem 0 .5rem 0;
+    transition: 300ms;
+}
+
+.answer:hover{
+    background-color: #DDDDDD;
+    color: black;
+    border-bottom: 5px solid rgb(194, 194, 194);
+}
+
+@media only screen and (max-width: 500px){
+    .answer{
+        width: 22rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 390px){
+    .answer{
+        width: 20rem;
+    }
+
+}
